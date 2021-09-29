@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.post-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 4px lightgray;
+  background-color: darkgrey;
+}
+.title {
+  font-size: 20px;
+}
+
+.list-items {
+  border: 1px solid black;
+  position: relative;
+}
+
+.post-title {
+  cursor: pointer;
+  padding: 5px;
+  color: black;
+  background-color: gray;
+}
